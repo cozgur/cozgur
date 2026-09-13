@@ -99,4 +99,4 @@ GitHub Actions · Docker · CI/CD · Testcontainers · Pact · k6 · OpenTelemet
 
 ### Find me online
 
-[Portfolio](https://ozgurcetintas.dev) · [GitHub](https://github.com/cozgur)
+[Portfolio](https://ozgurcetintas.dev) · [GitHub](https://github.com/cozgur) · [Linkedn](https://www.linkedin.com/in/ozgurcetintas/)
