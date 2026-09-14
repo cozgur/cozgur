@@ -20,7 +20,7 @@ Built to explore how AI can support test design and automation while keeping det
 
 **TypeScript · React · Playwright · Claude · GitHub Actions · Agentic Testing**
 
-[Repository](https://github.com/cozgur/testplan-studio)
+[Live](https://studio.ozgurcetintas.dev/) · [Repository](https://github.com/cozgur/testplan-studio) · [Design notes](https://github.com/cozgur/testplan-studio/blob/main/docs/design.md)
 
 ---
 
@@ -38,7 +38,7 @@ A production-style Quality Engineering environment focused on testing beyond tra
 
 **TypeScript · Playwright · Docker · Testcontainers · Pact · k6 · OpenTelemetry**
 
-[Repository](https://github.com/cozgur/modern-quality-engineering-lab)
+[Repository](https://github.com/cozgur/modern-quality-engineering-lab) · [Test strategy](https://github.com/cozgur/modern-quality-engineering-lab/blob/main/docs/test-strategy.md)
 
 ---
 
@@ -52,7 +52,7 @@ Includes extensive automated coverage across unit and end-to-end scenarios using
 
 **React Native · TypeScript · Jest · Maestro · GitHub Actions**
 
-[App Store](https://apps.apple.com/us/app/cipherbreaker-code-puzzle/id6777961704)
+[App Store](https://apps.apple.com/app/id6777961704) · [cipherbreaker.app](https://cipherbreaker.app/) · [play today's puzzle](https://cipherbreaker.app/play/)
 
 ---
 
@@ -62,7 +62,7 @@ Competitive word game for iOS built around head-to-head and asynchronous gamepla
 
 **React Native · TypeScript · iOS · Game Center**
 
-[App Store](https://apps.apple.com/tr/app/outguess-word-battles/id6808974621?l=tr)
+[App Store](https://apps.apple.com/app/id6808974621) · [outguessapp.com](https://outguessapp.com/)
 
 > Source code for both products is private.
 
@@ -99,4 +99,4 @@ GitHub Actions · Docker · CI/CD · Testcontainers · Pact · k6 · OpenTelemet
 
 ### Find me online
 
-[Portfolio](https://ozgurcetintas.dev) · [GitHub](https://github.com/cozgur) · [Linkedn](https://www.linkedin.com/in/ozgurcetintas/)
+[Portfolio](https://ozgurcetintas.dev) · [GitHub](https://github.com/cozgur) · [LinkedIn](https://www.linkedin.com/in/ozgurcetintas/)
