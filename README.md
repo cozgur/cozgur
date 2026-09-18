@@ -12,6 +12,18 @@ Currently building public engineering projects around **agentic testing, AI-assi
 
 ## Featured Engineering Work
 
+### Trident
+
+Java test automation framework covering web, mobile and API testing behind a single Cucumber runner. Consumed as a Maven artifact rather than forked: a new application is onboarded by generating a project from the archetype and writing feature files.
+
+Developed against a 2005 JSP banking application chosen for having no test hooks, no specification and global state — the conditions most real systems have. A separate project adopts it from Maven Central and tests an unrelated target, which is how two assumptions that had leaked into the framework were found and closed.
+
+**Java 21 · Maven · Cucumber · JUnit 5 · REST Assured · Testcontainers · GitHub Actions**
+
+[Repository](https://github.com/cozgur/trident) · [Maven Central](https://central.sonatype.com/namespace/dev.ozgurcetintas) · [Showcase](https://github.com/cozgur/trident-showcase) · [Decision records](https://github.com/cozgur/trident/tree/main/docs/adr)
+
+---
+
 ### TestPlan Studio
 
 AI-assisted, risk-based test planning and Playwright specification generation.
