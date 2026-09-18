@@ -18,7 +18,7 @@ Java test automation framework built around a single Cucumber runner, with the A
 
 Developed against a 2005 JSP banking application chosen for having no test hooks, no specification and global state — the conditions most real systems have. A separate project adopts it from Maven Central and tests an unrelated target, which is how two assumptions that had leaked into the framework were found and closed.
 
-**Java 21 · Maven · Cucumber · JUnit 5 · REST Assured · Testcontainers · GitHub Actions**
+**Java 21 · Maven · Cucumber · JUnit 5 · REST Assured · GitHub Actions**
 
 [Repository](https://github.com/cozgur/trident) · [Maven Central](https://central.sonatype.com/namespace/dev.ozgurcetintas) · [Showcase](https://github.com/cozgur/trident-showcase) · [Decision records](https://github.com/cozgur/trident/tree/main/docs/adr)
 
