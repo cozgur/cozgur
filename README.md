@@ -14,7 +14,7 @@ Currently building public engineering projects around **agentic testing, AI-assi
 
 ### Trident
 
-Java test automation framework covering web, mobile and API testing behind a single Cucumber runner. Consumed as a Maven artifact rather than forked: a new application is onboarded by generating a project from the archetype and writing feature files.
+Java test automation framework built around a single Cucumber runner, with the API layer shipped and web and mobile to follow. Consumed as a Maven artifact rather than forked: a new application is onboarded by generating a project from the archetype and writing feature files.
 
 Developed against a 2005 JSP banking application chosen for having no test hooks, no specification and global state — the conditions most real systems have. A separate project adopts it from Maven Central and tests an unrelated target, which is how two assumptions that had leaked into the framework were found and closed.
 
