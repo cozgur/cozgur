@@ -1,6 +1,6 @@
 # Özgür Çetintaş
 
-**Senior SDET / Test Automation Engineer** based in the Netherlands.
+**Senior QA Engineer / Test Automation Engineer** based in the Netherlands.
 
 I design scalable quality engineering systems across web, mobile, APIs and CI/CD, with a focus on automation architecture, reliability, maintainability and fast feedback.
 
