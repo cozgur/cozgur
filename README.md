@@ -1,114 +1,40 @@
 # Özgür Çetintaş
 
-**Senior QA Engineer / Test Automation Engineer** based in the Netherlands.
+Senior QA engineer who builds things. Eight years of making software trustworthy, from payment flows to video engines to AI features. Based near Rotterdam.
 
-I design scalable quality engineering systems across web, mobile, APIs and CI/CD, with a focus on automation architecture, reliability, maintainability and fast feedback.
+At work I own release quality for a portfolio of 20+ iOS, Android and web apps: about 1,000 automated tests, the CI quality gates in front of every release, and an AI agent that walks our payment funnels like a real customer. The projects below are what I build in the open.
 
-Currently building public engineering projects around **agentic testing, AI-assisted QA, integration & contract testing, observability and performance engineering**.
-
-[Portfolio](https://ozgurcetintas.dev)
+[Portfolio](https://ozgurcetintas.dev) · [LinkedIn](https://www.linkedin.com/in/ozgurcetintas/)
 
 ---
 
-## Featured Engineering Work
+## Open source
 
-### Trident
+### [TestLease](https://github.com/testlease/testlease)
+Stops parallel test runs from colliding on shared test accounts: exclusive, expiring leases with crash recovery, Playwright fixtures, a REST API and an MCP server so AI agents can borrow test resources too. Built for a problem I hit at work.
+**TypeScript · REST API · Playwright · MCP · Docker**
 
-Java test automation framework built around a single Cucumber runner, with the API layer shipped and web and mobile to follow. Consumed as a Maven artifact rather than forked: a new application is onboarded by generating a project from the archetype and writing feature files.
+### [Trident](https://github.com/cozgur/trident)
+A Java test automation framework consumed from Maven Central rather than forked: one Cucumber runner with REST Assured API and Selenium 4 web layers, and a Maven archetype that takes a new project to a green suite in seconds. Developed against a 2005 JSP banking app with no test hooks; a [separate showcase](https://github.com/cozgur/trident-showcase) adopts it from Central against an unrelated API, which found two gaps that were fixed in the framework. Every decision is recorded as an [ADR](https://github.com/cozgur/trident/tree/main/docs/adr).
+**Java 21 · Maven · Cucumber · Selenium 4 · REST Assured · Testcontainers**
 
-Developed against a 2005 JSP banking application chosen for having no test hooks, no specification and global state — the conditions most real systems have. A separate project adopts it from Maven Central and tests an unrelated target, which is how two assumptions that had leaked into the framework were found and closed.
+### [Modern Quality Engineering Lab](https://github.com/cozgur/modern-quality-engineering-lab)
+A small TypeScript service tested the way I would test a production system: unit, API, Pact contracts, PostgreSQL via Testcontainers, Playwright with accessibility checks, k6 performance budgets, Promptfoo evaluations and OpenTelemetry traces, all as parallel CI jobs. [Live reports](https://lab.ozgurcetintas.dev/) · [Test strategy](https://github.com/cozgur/modern-quality-engineering-lab/blob/main/docs/test-strategy.md)
+**TypeScript · Playwright · Pact · Testcontainers · k6 · OpenTelemetry · Promptfoo**
 
-**Java 21 · Maven · Cucumber · JUnit 5 · REST Assured · GitHub Actions**
-
-[Repository](https://github.com/cozgur/trident) · [Maven Central](https://central.sonatype.com/namespace/dev.ozgurcetintas) · [Showcase](https://github.com/cozgur/trident-showcase) · [Decision records](https://github.com/cozgur/trident/tree/main/docs/adr)
-
----
-
-### TestPlan Studio
-
-AI-assisted, risk-based test planning and Playwright specification generation.
-
-Built to explore how AI can support test design and automation while keeping deterministic engineering practices and human review at the center.
-
-**TypeScript · React · Playwright · Claude · GitHub Actions · Agentic Testing**
-
-[Live](https://studio.ozgurcetintas.dev/) · [Repository](https://github.com/cozgur/testplan-studio) · [Design notes](https://github.com/cozgur/testplan-studio/blob/main/docs/design.md)
+### [TestPlan Studio](https://github.com/cozgur/testplan-studio)
+Turns an application brief into a risk-based test plan with Claude, compiles the browser scenarios into a linted Playwright spec and runs it on GitHub Actions. The model proposes; deterministic checks and a human decide. [Live](https://studio.ozgurcetintas.dev/)
+**TypeScript · React · Playwright · Claude · GitHub Actions**
 
 ---
 
-### Modern Quality Engineering Lab
+## Apps I ship
 
-A production-style Quality Engineering environment focused on testing beyond traditional UI automation.
+- **[CipherBreaker](https://apps.apple.com/app/id6777961704)**: a 1v1 code-breaking game I build and run alone, from code to App Store operations. React Native, strict TypeScript, about 285 Jest test files plus Maestro end-to-end flows. [Play today's puzzle](https://cipherbreaker.app/play/)
+- **[Outguess](https://apps.apple.com/app/id6808974621)**: a 1v1 word game with solver-based bots and Game Center. React Native, TypeScript. [outguessapp.com](https://outguessapp.com/)
 
-**Focus areas**
-
-- Agentic & E2E Testing — Playwright, Test Agents, MCP
-- Integration & Contract Testing — Testcontainers, Pact
-- Performance & Observability — k6, OpenTelemetry
-- AI Evaluation — Promptfoo
-- Accessibility & CI/CD Quality Gates
-
-**TypeScript · Playwright · Docker · Testcontainers · Pact · k6 · OpenTelemetry**
-
-[Repository](https://github.com/cozgur/modern-quality-engineering-lab) · [Test strategy](https://github.com/cozgur/modern-quality-engineering-lab/blob/main/docs/test-strategy.md)
+Source code for both apps is private.
 
 ---
 
-## Products
-
-### CipherBreaker: Code Puzzle
-
-Production iOS deduction game built with React Native and TypeScript.
-
-Includes extensive automated coverage across unit and end-to-end scenarios using Jest and Maestro.
-
-**React Native · TypeScript · Jest · Maestro · GitHub Actions**
-
-[App Store](https://apps.apple.com/app/id6777961704) · [cipherbreaker.app](https://cipherbreaker.app/) · [play today's puzzle](https://cipherbreaker.app/play/)
-
----
-
-### Outguess: Word Battles
-
-Competitive word game for iOS built around head-to-head and asynchronous gameplay.
-
-**React Native · TypeScript · iOS · Game Center**
-
-[App Store](https://apps.apple.com/app/id6808974621) · [outguessapp.com](https://outguessapp.com/)
-
-> Source code for both products is private.
-
----
-
-## Core Engineering Stack
-
-**Languages**  
-TypeScript · Java · Python · JavaScript · Swift · SQL
-
-**Test Automation**  
-Playwright · Appium · Maestro · Selenium · WebdriverIO · Jest · REST Assured
-
-**Quality Engineering**  
-API Testing · Mobile Testing · E2E Testing · Contract Testing · Integration Testing · Performance Testing · Accessibility Testing
-
-**Engineering & CI/CD**  
-GitHub Actions · Docker · CI/CD · Testcontainers · Pact · k6 · OpenTelemetry
-
----
-
-## Engineering Focus
-
-- Scalable test automation architecture
-- Risk-based quality strategy
-- Mobile, web and API automation
-- Reliable CI/CD quality gates
-- Test maintainability and flakiness reduction
-- Fast regression feedback
-- AI-assisted testing with engineering guardrails
-- Observability-driven failure investigation
-
----
-
-### Find me online
-
-[Portfolio](https://ozgurcetintas.dev) · [GitHub](https://github.com/cozgur) · [LinkedIn](https://www.linkedin.com/in/ozgurcetintas/)
+**Tools I use most:** TypeScript · Java · Python · Playwright · Selenium · Appium · Maestro · REST Assured · GitHub Actions · Docker · Claude Code
