@@ -15,7 +15,7 @@ I own release quality for a portfolio of 20+ iOS, Android and web apps at Pixery
 - **Build and deployment platform**: replaced Bitrise for 10 mobile apps, cut build times from 40 to 13 minutes and avoided an estimated $24K a year in tooling costs. *Java · Jenkins · Docker · Node.js · React · MongoDB*
 - **Testing AI image generation**: Promptfoo regression tests that check the prompts behind AI image features keep the user's requirements. *Promptfoo · LLM evaluation*
 - **Mobile, web and API automation framework** (Pixery, 2019 – 2022): as the first dedicated QA hire, one Java codebase for Appium, Selenium and REST Assured tests, with the Jenkins CI/CD pipeline that runs it. It became the base of today's ~1,000-test regression suite. *Java · Appium · Selenium · REST Assured · Cucumber · TestNG · Maven · Jenkins*
-- **3-D Secure 2.0 payment authentication** (Finartz, 2018 – 2019): 10,000+ data-driven Cucumber scenarios against the EMVCo, Mastercard and Visa specifications, plus API and JMeter performance tests. The server passed certification. *Java · REST Assured · Cucumber · TestNG · JMeter*
+- **3-D Secure 2.0 payment authentication** (Finartz, 2018 – 2019): built the test automation framework and, with one colleague, wrote 10,000+ data-driven Cucumber scenarios against the EMVCo, Mastercard and Visa specifications, plus API and JMeter performance tests. The server passed certification. *Java · REST Assured · Cucumber · TestNG · JMeter*
 
 ---
 
